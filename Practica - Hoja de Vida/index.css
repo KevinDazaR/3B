@@ -1,0 +1,146 @@
+main{
+    margin: auto;
+    width: 900px;
+    height: auto;
+    border: 1;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: rgb(0, 0, 0) ;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h4{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+h5{
+    font-size: 1.3em;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input {
+    border: none;rgb(140 249 178)
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: auto;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  }
+
+input[type="range"]{
+    background-color: red;
+}
+
+.coinainer-left{
+    background-color: rgb(138 171 150);
+    width: 50%;
+    height: 100%;
+    color: #d4d3d3;
+    position: relative;
+}
+
+.profile-picture{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.profile-picture h2 {
+    color: black;
+    background-color: white;
+    font-size: 3em;
+    width: 585px;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    /* right: 53%; */
+}
+
+.profile-picture img{
+    width: 100%;
+}
+.dates-container, .competenses-container ,.languages-container{
+    padding:10px 10px 10px 15px;
+}
+
+.dates-container h3, .dates-container p{
+    margin: 0;
+}
+
+.dates-container p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+
+.coinainer-rigth{
+    width: 50%;
+    padding:20px 20px 10px 20px;
+    background-color: #d0ffdc;
+}
+
+.coinainer-rigth strong{
+    font-size: 35px;
+}
+
+.coinainer-rigth p{
+    font-size: 20px;
+}
+
+.coinainer-rigth p{
+    font-size: 20px;
+}
+
+.profile-box{
+    margin-top: 200px;
+}
+
+.phone-box , .email-box{
+    cursor:pointer;
+}
+
+.phone-box:hover{
+    color:aquamarine ;
+}
+
+
+.experience-boxes{
+    display: flex;
+}
+
+.top-box-formacion{
+    display: flex;
+}
+.bot-box-formacion{
+    display: flex;
+}
+
+.left-text-box-exp{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.rigth-text-box-exp{
+    width: 75%;
+}
+
+.rigth-text-box-exp h5{
+    margin-bottom: 10px;
+}
+
+.rigth-text-box-exp h6{
+    margin-top: 3px;
+}
