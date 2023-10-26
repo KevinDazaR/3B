@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesiòn</title>
+    <style>
+
+        main{
+            font-size: 20px;
+            background-color: rgb(230, 253, 166);
+            margin: auto;
+            width: 500px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px;
+            position: relative;
+        }
+        .dates_box{
+            width: auto;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .login{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .button_login{
+            width: 100%;
+            background-color: greenyellow;
+        }
+        .remember{
+            margin:20px 0px 20px 0px
+        }
+       
+        .footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_button{
+            width: 30%;
+            height: auto;
+            font-size: 10px;
+        }
+        .a_button{
+            width: 30%;
+            font-size: 15px;
+        }
+        .x{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+
+        }
+        .x:hover{
+            cursor: pointer;
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="x">X</div>
+        <div class="img_sesion"> 
+            <img src="sess.png" alt="">
+        </div>
+        <div class="dates_box">
+            <div class="username">
+                <p>Username</p>
+                <input type="text" placeholder="Enter Username">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password">
+            </div>
+            <div class="login">
+                <input class="button_login" type="button" value="login">
+            </div>
+            <div class="remember">
+                <input type="checkbox"> Remember me
+            </div>
+            <div class="footer">
+                <input class="footer_button" type="button" value="Cancel"> 
+                <a class="a_button" href="">Forgot Password?</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
