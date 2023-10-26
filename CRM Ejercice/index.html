@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <section id="list-product">
+          <div class="left-container">
+            <div class="buttons-box">
+              <a href="#list-product"><button>List product</button></a>
+              <a href="#add-prouct"><button>Create product</button></a>
+            </div>
+             
+          </div>
+          <div class="right-cotainer">
+            <div class="title">
+              <h2>Registred products list</h2>
+            </div>
+              <!-- 
+              colspan="2" DAR A ANCHO DE DOS COLUMNAS O MÀS
+              TH = ENCABEZADO
+              TR = FILA -SALTAR ABAJO
+              TD = ITEM O COLUMA -->
+              <!-- THEAD, para agrupar las filas que presentan infromación de encabezado -->
+              <!-- TFOOT para contener a las filas que representan un pie o  -->
+              <!-- TBODY, para representar un bloque de filas que consiste en un cuerpo de datos.resumen;  -->
+              <table class="list-table">
+                <thead>
+                  <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Mount</th>
+                    <th>Description</th>
+                    <th colspan="3">Actions</th>
+                  </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td><img src="img/arepa.jpeg" alt=""></td>
+                    <td>Arepa</td>
+                    <td>$1.100</td>
+                    <td>3</td>
+                    <td>Arepas El Paisa x 1 unidad</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/ambientador.jpg" alt=""></td>
+                    <td>Ambientador</td>
+                    <td>$5.000</td>
+                    <td>1</td>
+                    <td> Ambientador Glade Aerosol Aroma Manzana Y Canela x 250ml</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/milk.jpeg" alt=""></td>
+                    <td>Leche en bolsa</td>
+                    <td>$3.500</td>
+                    <td>1</td>
+                    <td>Leche Colanta x 1000ml</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/gaseosa.jpg" alt=""></td>
+                    <td>Gaseosa Manzana</td>
+                    <td>$5.500</td>
+                    <td>2</td>
+                    <td>Bebida Gaseosa Manzana Postobón x 2500ml</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/oil.jpeg" alt=""></td>
+                    <td>Aceite Girasol</td>
+                    <td>$5.810</td>
+                    <td>1</td>
+                    <td>Aceite Vegetal Oleocali x 500ml</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/bread.jpeg" alt=""></td>
+                    <td>Pan Bimbo</td>
+                    <td>$6.700</td>
+                    <td>2</td>
+                    <td>Pan Bimbo 600g Mantequilla</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  
+                  <tr>
+                    <td><img src="img/salchi.jpeg" alt=""></td>
+                    <td>Salchichas en lata Zenù</td>
+                    <td>$4.400</td>
+                    <td>4</td>
+                    <td>Salchichas Viena De Res Zenú Lata x 150gr</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/panela.jpeg" alt=""></td>
+                    <td>Panela Morena</td>
+                    <td>$3.421</td>
+                    <td>2</td>
+                    <td>Panela Tradicion Campo 8u Porcionada</td>
+                    <td>
+                      <a href="#see-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><img src="img/compota.jpg" alt=""></td>
+                    <td>Compota Germe</td>
+                    <td>$4.321</td>
+                    <td>6</td>
+                    <td>Compota Gerber 113g Pera</td>
+                    <td>
+                      <a href="#list-prouct">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      
+                    </td>
+                    <td>
+                      <a href="#edit-prouct">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="#remove-prouct">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+            </tbody>
+
+            </table>
+          </div>
+        </section>
+        <hr>
+        <section id="add-prouct">
+              <div class="left-container">
+                <a href="#list-product"><button>List product</button></a>
+                <a href="#add-prouct"><button>Create product</button></a>
+              </div>
+              <div class="right-cotainer right-cotainer-add">
+                <div class="title">
+                  <h2>Create a new product</h2>
+                </div>
+                <div class="mid-container-box">
+                  <div class="left-table-container">
+                    <h4>name</h4>
+                    <input type="text">
+                    <h4>Amount</h4>
+                    <input type="text">
+                    <h4>ID</h4>
+                    <input type="text">
+                  </div>
+                  
+                  <div class="right-table-cotainer">
+                    <h4>Price</h4>
+                    <input type="text">
+                    <h4>Description</h4>
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
+                  </div>
+                </div>
+                <div class="bot-container">
+                  <button>Create</button>
+                </div>
+              </div>
+        </section>
+        <hr>
+        <section id="edit-prouct">
+          <!-- <div class="container-add"> -->
+            <div class="left-container">
+              <a href="#list-product"><button>List product</button></a>
+              <a href="#add-prouct"><button>Create product</button></a>
+            </div>
+            <div class="right-cotainer right-cotainer-add">
+              <div class="title">
+                <h2>Edit product</h2>
+              </div>
+              <div class="mid-container-box">
+                <div class="left-table-container">
+                  <h4>name</h4>
+                  <input type="text" placeholder="Arepa">
+                  <h4>Amount</h4>
+                  <input type="text" placeholder="10">
+                  <h4>ID</h4>
+                  <input type="text" placeholder="0001">
+                </div>
+                
+                <div class="right-table-cotainer">
+                  <h4>Price</h4>
+                  <input type="text" placeholder="1000">
+                  <h4>Description</h4>
+                  <textarea name="" id="" cols="20" rows="10" placeholder="Red arepa"></textarea>
+                </div>
+              </div>
+              <div class="bot-container">
+                <button>Create</button>
+              </div>
+            </div>
+          <!-- </div> -->
+      </section>
+        <hr>
+        <section id="remove-prouct">
+          <!-- <div class="container-add"> -->
+            <div class="left-container">
+              <a href="#list-product"><button>List product</button></a>
+              <a href="#add-prouct"><button>Create product</button></a>
+            </div>
+            <div class="right-cotainer right-cotainer-add">
+              <div class="title">
+                <h2>Remove product</h2>
+              </div>
+              <div class="mid-container-box">
+                <div class="remove-mesagge-box">
+                  <p>The product has removed </p>
+                </div>
+                
+              </div>
+
+            </div>
+          <!-- </div> -->
+      </section>
+        <hr>
+        <table class="list-table">
+          <!-- TH = ENCABEZADO
+          TR = FILA
+          TD = ITEM O COLUMA -->
+
+        </table>
+    </main>
+</body>
+</html>
+
+<!-- TABLE DOCUMENTATION
+Las columnas de una tabla que están de alguna manera relacionadas pueden ser agrupadas con el elemento colgroup. Es importante que los grupos de columnas tengan un significado semántico y que no se limiten a formar bloques estilísticos. Por ejemplo, el elemento colgroup se puede utilizar para agrupar columnas si se refieren a un mismo producto o si representan una misma magnitud, pero no debe ser usado simplemente para hacer que tengan el mismo aspecto (para eso está el elemento col).
+
+El elemento col representa una o más columnas en una tabla (table). Este elemento se vuelve útil cuando se precisa asignar un conjunto de atributos a todas las celdas en una o más columnas. En tales casos, los atributos pueden ser declarados directamente en el elemento col y sus efectos serán automáticamente transferidos a las columnas que éste representa. -->
